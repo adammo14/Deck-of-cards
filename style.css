@@ -1,0 +1,33 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background-color: #dbdbdb;
+}
+
+#title{
+  text-align: center;
+}
+
+.controls{
+  width: 100%;
+  text-align: center;
+}
+
+.card-container{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  width: 100px;
+  height: 150px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
