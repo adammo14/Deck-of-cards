@@ -18,9 +18,23 @@
       <button type="button" class="btn btn-success" onclick="deal()">Deal Cards</button>
       <button type="button" class="btn btn-primary" onclick="shuffle()">Shuffle</button>
       <button type="button" class="btn btn-danger" onclick="clearDeck()">Clear Deck</button>
+      <span>||</span>
+      <button type="button" class="btn btn-success" onclick="drawCard()">Draw Card</button>
+      <button type="button" class="btn btn-primary" onclick="shuffle()">Shuffle Drawn</button>
+      <select id="selectBox" class="form-control" onchange='sortBy()'>
+        <option>Sort by</option>
+        <option value='Suit'>Suit</option>
+        <option value='Value'>Value</option>
+      </select>
     </div>
 
     <div class="card-container">
+
+    </div>
+
+    <hr>
+
+    <div class="table-container">
 
     </div>
   </div>

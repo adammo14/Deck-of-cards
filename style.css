@@ -13,17 +13,27 @@ body{
 }
 
 .controls{
+  display: inline-block;
   width: 100%;
   text-align: center;
 }
 
-.card-container{
+.controls select{
+  display: inline-block;
+  width: 150px;
+}
+
+#controls-divider{
+
+}
+
+.card-container, .table-container{
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.card{
+.card, .drawn-card{
   width: 100px;
   height: 150px;
   background-color: white;
